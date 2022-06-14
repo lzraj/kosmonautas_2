@@ -1,0 +1,25 @@
+{
+  "name": "front-end-by-rimantas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "dead-server": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "dead-server --port=3901 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzraj/front-end-by-rimantas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lzraj/front-end-by-rimantas/issues"
+  },
+  "homepage": "https://github.com/lzraj/front-end-by-rimantas#readme",
+  "description": ""
+}
