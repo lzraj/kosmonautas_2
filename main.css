@@ -1,18 +1,16 @@
-header {
+header,
+main,
+footer  {
     display: inline-block;
     width: 1000px;
-    margin-left: calc(50% - 500px);
+    margin: 0 calc(50% - 500px);
     background-color: yellow;
+
 }
 main {
-    display: inline-block;
-    width: 1000px;
-    margin-left: calc(50% - 500px);
     background-color: pink;
 }
+
 footer {
-    display: inline-block;
-    width: 1000px;
-    margin-left: calc(50% - 500px);
     background-color: aquamarine;
 }
