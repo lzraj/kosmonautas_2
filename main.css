@@ -4,13 +4,53 @@ footer  {
     display: inline-block;
     width: 1000px;
     margin: 0 calc(50% - 500px);
-    background-color: yellow;
+
+}
+
+body > * :nth-last-child(2) {
+margin-bottom: 0;
+
+
 
 }
 main {
-    background-color: pink;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+img {
+
+    float: left;
 }
 
 footer {
-    background-color: aquamarine;
 }
+
+nav {
+    float:right
+
+}
+
+nav > a {
+
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    float: left;
+    margin-left: 50px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color:#649;
+
+}
+
+
+
+
+
+/*  
