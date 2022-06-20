@@ -1,0 +1,102 @@
+header,
+main,
+footer  {
+    display: inline-block;
+    width: 1000px;
+    margin: 0 calc(50% - 500px);
+
+}
+
+body > * :nth-last-child(2) {
+margin-bottom: 0;
+
+
+}
+
+.socials a{
+    text-decoration: none;
+    color: #7778;
+
+}
+
+.socials :hover {
+
+    color: #649;
+
+}
+
+.main-nav > nav {
+
+    display: block;
+    font-weight: 100;
+}
+
+.main-nav .link:first-child {
+    margin: 0;
+}
+
+
+
+main {
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.container {
+    display: inline-block;
+    width: 1000px;
+    margin: 0 calc(50% - 500px) 60px;
+
+}
+
+.main-title > span {
+    display: block;
+    font-weight: 100;
+}
+
+
+img {
+
+    float: left;
+}
+
+
+
+.main-nav {
+    float:right
+
+}
+
+
+
+.description {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color:#649;
+
+}
+
+.right-column {
+    float: right;
+    width: 55%;
+}
+
+.left-column {
+    width: 40%;
+    float: left;
+    margin-top: 50px;
+}
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin: 0;
+}
+
+/* comment */ 
